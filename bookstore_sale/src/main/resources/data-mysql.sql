@@ -1,8 +1,5 @@
 insert into publishers (id, create_time, update_time, publisher_name) values (1, current_timestamp(), current_timestamp(), 'test1');
 insert into publishers (id, create_time, update_time, publisher_name) values (2, current_timestamp(), current_timestamp(), 'test2');
-insert into publishers (id, create_time, update_time, publisher_name) values (3, current_timestamp(), current_timestamp(), 'test3');
-insert into publishers (id, create_time, update_time, publisher_name) values (4, current_timestamp(), current_timestamp(), 'test4');
-insert into publishers (id, create_time, update_time, publisher_name) values (5, current_timestamp(), current_timestamp(), 'test5');
 
 insert into authors (id, create_time, update_time, first_name, last_name) values (1, current_timestamp(), current_timestamp(), 'Bjarne', 'Stroustrup');
 insert into authors (id, create_time, update_time, first_name, last_name) values (2, current_timestamp(), current_timestamp(), 'Dennis', 'Ritchie');
