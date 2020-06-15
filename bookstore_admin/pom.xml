@@ -9,11 +9,10 @@
         <relativePath/>
     </parent>
     <groupId>com.homework.nix.bookstore</groupId>
-    <artifactId>bookstore_sale</artifactId>
+    <artifactId>bookstore_admin</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>bookstore :: sale</name>
-    <description>Bookstore sale project for Spring Boot</description>
+    <name>bookstore :: admin</name>
 
     <properties>
         <java.version>11</java.version>
@@ -27,7 +26,11 @@
             <artifactId>bookstore_data</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.homework.nix.bookstore</groupId>
+            <artifactId>bookstore_sale</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!-- SPRINGFRAMEWORK-->
         <dependency>
